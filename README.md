@@ -5,8 +5,9 @@
 - "yarn add express" to add express package
 
 #### Sucrase and Nodemon
-- "yarn add sucrase nodemon -D" to add sucrase 
-(sucrase: to use new features of javascript; nodemon: to auto reload our code when we change it)
+- "yarn add sucrase nodemon -D" to add sucrase (just in dev environment)
+sucrase: to use new features of javascript; 
+nodemon: to auto reload our code when we change it;
 
 - add these new lines to "package.json" to run after the server with command "yarn dev" and "yarn dev:debug":
 ```javascript
@@ -26,6 +27,7 @@
 ```
 
 - configure debug of vs code, clicking on "add configuration" and put these lines inside "configurations" key:
+```javascript
 		{
             "type": "node",
             "request": "attach",
@@ -33,6 +35,7 @@
             "restart": true,
             "protocol": "inspector"
         }
+```
 
 #### ESLint and Prettier
 - "yarn add eslint -D" to install an package that will help to keep a pattern in code.
