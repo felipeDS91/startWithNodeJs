@@ -20,21 +20,21 @@ nodemon: to auto reload our code when we change it;
 
 ```javascript
 {
-    	"execMap": {
-        	"js": "node -r sucrase/register"
-    	}
+	"execMap": {
+		"js": "node -r sucrase/register"
+	}
 }
 ```
 
 - configure debug of vs code, clicking on "add configuration" and put these lines inside "configurations" key:
 ```javascript
-		{
-            "type": "node",
-            "request": "attach",
-            "name": "Launch Program",
-            "restart": true,
-            "protocol": "inspector"
-        }
+{
+	"type": "node",
+	"request": "attach",
+	"name": "Launch Program",
+	"restart": true,
+	"protocol": "inspector"
+}
 ```
 
 #### ESLint and Prettier
@@ -107,8 +107,8 @@ nodemon: to auto reload our code when we change it;
 - create file ".prettierrc" on root path and override some configs of prettier:
 ```javascript
 {
-    "singleQuote": true,
-    "trailingComma": "es5"
+	"singleQuote": true,
+	"trailingComma": "es5"
 }
 ```
 
