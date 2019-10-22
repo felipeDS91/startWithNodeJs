@@ -4,6 +4,7 @@
 
 - "yarn add express" to add express package
 
+#### Sucrase and Nodemon
 - "yarn add sucrase nodemon -D" to add sucrase 
 (sucrase: to use new features of javascript; nodemon: to auto reload our code when we change it)
 
@@ -33,6 +34,7 @@
             "protocol": "inspector"
         }
 
+#### ESLint and Prettier
 - "yarn add eslint -D" to install an package that will help to keep a pattern in code.
 
 - "yarn eslint --init" to start eslint choosing these options:
@@ -109,6 +111,7 @@
 
 - So, to fix all files in project (if alread exists), run "yarn eslint --fix src --ext .js"
 
+#### EditorConfig
 - install new extension on vs code called "editorconfig" to keep the same configuration on editors of all developers, and create a file on root called ".editorconfig" and put these lines inside:
 
 ```javascript
