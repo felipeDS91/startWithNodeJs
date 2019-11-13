@@ -103,6 +103,7 @@ nodemon: to auto reload our code when we change it;
 ```
 
 - "yarn add prettier eslint-config-prettier eslint-plugin-prettier -D" to install other tool to keep our code more beautiful <3
+*Add "babel-eslint" to configure this on ReactJS and React Native
 
 - create file ".prettierrc" on root path and override some configs of prettier:
 ```javascript
